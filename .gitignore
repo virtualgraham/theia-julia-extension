@@ -7,3 +7,4 @@
 .vscode
 nohup.out
 package-lock.json
+julia/scripts/languageserver/julia_pkgdir/**

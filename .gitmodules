@@ -1,3 +1,24 @@
 [submodule "julia/scripts/languageserver/packages/CSTParser"]
 	path = julia/scripts/languageserver/packages/CSTParser
 	url = https://github.com/ZacLN/CSTParser.jl.git
+[submodule "julia/scripts/languageserver/packages/DocumentFormat"]
+	path = julia/scripts/languageserver/packages/DocumentFormat
+	url = https://github.com/ZacLN/DocumentFormat.jl.git
+[submodule "julia/scripts/languageserver/packages/JSON"]
+	path = julia/scripts/languageserver/packages/JSON
+	url = https://github.com/JuliaIO/JSON.jl.git
+[submodule "julia/scripts/languageserver/packages/LanguageServer"]
+	path = julia/scripts/languageserver/packages/LanguageServer
+	url = https://github.com/JuliaEditorSupport/LanguageServer.jl.git
+[submodule "julia/scripts/languageserver/packages/StaticLint"]
+	path = julia/scripts/languageserver/packages/StaticLint
+	url = https://github.com/ZacLN/StaticLint.jl.git
+[submodule "julia/scripts/languageserver/packages/SymbolServer"]
+	path = julia/scripts/languageserver/packages/SymbolServer
+	url = https://github.com/JuliaEditorSupport/SymbolServer.jl.git
+[submodule "julia/scripts/languageserver/packages/Tokenize"]
+	path = julia/scripts/languageserver/packages/Tokenize
+	url = https://github.com/KristofferC/Tokenize.jl.git
+[submodule "julia/scripts/languageserver/packages/URIParser"]
+	path = julia/scripts/languageserver/packages/URIParser
+	url = https://github.com/JuliaWeb/URIParser.jl.git
