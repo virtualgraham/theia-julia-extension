@@ -1,0 +1,36 @@
+{
+  "name": "julia",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src",
+    "data",
+    "scripts"
+  ],
+  "dependencies": {
+    "@theia/core": "latest",
+    "@theia/monaco": "latest",
+    "@theia/editor": "next",
+    "@theia/languages": "next"
+  },
+  "devDependencies": {
+    "lerna": "2.4.0",
+    "rimraf": "latest",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/julia-frontend-module",
+      "backend": "lib/node/theia-julia-backend-module"
+    }
+  ]
+}
