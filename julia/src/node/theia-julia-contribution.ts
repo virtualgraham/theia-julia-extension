@@ -30,8 +30,6 @@ export class JuliaContribution extends BaseLanguageServerContribution {
         
         let oldDepotPath = process.env.JULIA_DEPOT_PATH ? process.env.JULIA_DEPOT_PATH : "";
         
-        // let oldDepotPath = "/home/virtualgraham/.julia"
-        
         let g_lscrashreportingpipename = ""
     
         //let serverArgsRun = ['--startup-file=no', '--history-file=no', 'main.jl', jlEnvPath, '--debug=no', g_lscrashreportingpipename, oldDepotPath];

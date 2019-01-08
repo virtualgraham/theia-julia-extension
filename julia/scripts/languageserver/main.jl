@@ -1,5 +1,5 @@
 if VERSION < v"1.0.0"
-    error("VS Code julia language server only works with julia 1.0.0+")
+    error("Theia Julia Language Server only works with julia 1.0.0+")
 end
 
 try
