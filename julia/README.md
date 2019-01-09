@@ -12,7 +12,7 @@ Requires Julia installation [Julia Downloads](https://julialang.org/downloads/)
 
 ### Installing 
 
-To install, follow the [Build your own IDE](https://www.theia-ide.org/doc/Composing_Applications.html) guide and add `theia-julia-extension` to the dependencies in the package.js file.
+To install, follow the [Build your own IDE](https://www.theia-ide.org/doc/Composing_Applications.html) guide and add `theia-julia-extension` to the dependencies in the package.json file.
 
 ```
 {
